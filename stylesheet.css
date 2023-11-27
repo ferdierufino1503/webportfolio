@@ -1,0 +1,64 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+header {
+	background-position:center;
+	background-size: cover;
+	color: white;
+}
+
+.me {
+	border:2px solid;
+	border-radius: 340px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease-in-out;
+	filter: grayscale(30%) brightness(90%) contrast(120%);
+}
+.color-overlay {
+	background-color: rgba(0,0,0,0.4);
+	min-height: 60vh;
+}
+
+.web{
+	font-size: 5vb;
+	font-weight: bolder;
+	color:rgba(225, 225, 225, 0.7);
+}
+.singleCol {
+	max-width: 750px;
+}
+
+.animate__fadeIn {
+	animation: bounceIn 1s ease-in-out;
+  }
+
+footer{
+	background-color: black;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: #dfdfdf;
+}
+@media (max-width: 768px){
+.color-overlay{ 
+	min-height: 30vh;
+}
+}
